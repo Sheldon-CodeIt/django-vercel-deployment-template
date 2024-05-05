@@ -9,10 +9,6 @@ A starter template for deploying your django application on Vercel (for free).
 The Django Vercel Deployment Template simplifies the process of deploying your Django projects to Vercel, offering a hassle-free experience to get your application up and running in no time. Leveraging the power of Vercel's serverless infrastructure, this template allows you to deploy your Django applications quickly and efficiently, all while taking advantage of Vercel's generous free tier.
 
 
-## Demo
-
-Insert gif or link to demo
-
 
 ## Prerequisites
 
