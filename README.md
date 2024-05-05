@@ -12,7 +12,7 @@ The Django Vercel Deployment Template simplifies the process of deploying your D
 
 ## Prerequisites
 
-Make sure you have the following installed on your machine:
+Make sure you have the following requirements:
 - [Git](https://git-scm.com/)
 - [Python](https://www.python.org/downloads/)
 - [Vercel account](https://vercel.com/)
