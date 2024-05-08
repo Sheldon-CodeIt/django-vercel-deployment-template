@@ -199,8 +199,22 @@ Now before moving on let's check if everything is working well by running the lo
 python manage.py runserver
 ```
 
-If you are not encountering any error then you should be able to see this screen.
+If you are not encountering any error then you should be able to see this page on [localhost](http://localhost:8000).
 
-![App Screenshot](https://i.ibb.co/NSGt0BK/Screenshot-353.png)
+![App Screenshot](https://i.ibb.co/KXLdTkK/localhost.png)
 
+
+## Git Setup
+
+Create a git repository and push the code to your remote [github](https://github.com) repository
+
+
+```bash
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin your-github-repository-https-url
+git push -u origin main
+```
 
