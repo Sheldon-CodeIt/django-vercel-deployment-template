@@ -227,11 +227,68 @@ Go to your [vercel](https://vercel.com) account and add a new project
 
 ![App Screenshot](https://i.ibb.co/NKYQq9P/add-new-project.png)
 
+<br>
+<br>
+
 You will have to first give access to your gihub account/repositories
 
 Now import the repository.
 
 ![App Screenshot](https://i.ibb.co/qWMG6Pd/import-repository.png)
+
+
+<br>
+<br>
+
+
+
+After importing, configure your project name and hit the deploy button.
+
+![App Screenshot](https://i.ibb.co/2jG20Pm/configure-deployment.png)
+
+<br>
+<br>
+
+
+**Note:** you may face deployment error saying "Couldn't import Django".
+
+![App Screenshot](https://i.ibb.co/JpbTbWG/deployment-error.png)
+
+<br>
+<br>
+
+
+To fix this error, go to your project settings and change the `Node.js Version` from `20.x` to `18.x`
+since, vercel requires node version 18.x to run django.
+
+![App Screenshot](https://i.ibb.co/1M4MXKR/select-node-version-18x.png)
+
+<br>
+<br>
+
+
+Go back to your project deployments tab and click on `redeploy`
+
+Congratulation! Your project is now live. To visit the website click on `visit` button.
+
+![App Screenshot](https://i.ibb.co/7XWP4g1/visit-website.png)
+
+<br>
+<br>
+
+
+**Note:** you can change your website domain from `project settings --> domain`
+
+Happy Deployment! 👏
+
+
+
+
+
+
+
+
+
 
 
 
