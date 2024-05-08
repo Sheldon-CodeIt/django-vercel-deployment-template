@@ -191,6 +191,8 @@ Run the following command which will create a requirements file with the necessa
 ```bash
 pip freeze > requirements.txt
 ```
+
+
 ## Run on Local Server
 
 Now before moving on let's check if everything is working well by running the local server.
@@ -217,4 +219,19 @@ git branch -M main
 git remote add origin your-github-repository-https-url
 git push -u origin main
 ```
+
+
+## Vercel Deployment
+
+Go to your [vercel](https://vercel.com) account and add a new project
+
+![App Screenshot](https://i.ibb.co/NKYQq9P/add-new-project.png)
+
+You will have to first give access to your gihub account/repositories
+
+Now import the repository.
+
+![App Screenshot](https://i.ibb.co/qWMG6Pd/import-repository.png)
+
+
 
